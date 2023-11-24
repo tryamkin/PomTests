@@ -15,8 +15,8 @@ abstract public class BaseSeleniumTest {
     @BeforeSuite
     public void setUp(){
         WebDriverManager.chromedriver().setup();
-        // driver = new ChromeDriver();
-       driver = new ChromeDriver(new ChromeOptions().addArguments("--headless"));
+        driver = new ChromeDriver();
+       //driver = new ChromeDriver(new ChromeOptions().addArguments("--headless"));
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
