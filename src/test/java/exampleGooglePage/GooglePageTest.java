@@ -27,11 +27,15 @@ public class GooglePageTest extends BaseSeleniumTest {
     }
 
 
-    @Test
+    @Test (priority = 2)
     public void searchTResultTest(){
         SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.setSearchResults()>1000);
     }
-
+    @Test (priority = 1)
+    public void searchTResultTest1(){
+        SearchPage searchPage = new SearchPage();
+        Assert.assertTrue(searchPage.setSearchResults()>1000);
+    }
 
 }
