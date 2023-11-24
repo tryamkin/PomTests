@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="game with headless v2">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="play with screenshot take screenshot and failure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700856492990</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="game with headless v3">
+      <created>1700857239795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700857239795</updated>
+    </task>
+    <task id="LOCAL-00012" summary="play with screenshot">
+      <created>1700857369366</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700857369366</updated>
+    </task>
+    <task id="LOCAL-00013" summary="play with screenshot take screenshot and failure">
+      <created>1700857441911</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700857441911</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +236,9 @@
     <MESSAGE value="repair int" />
     <MESSAGE value="game with headless" />
     <MESSAGE value="game with headless v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="game with headless v2" />
+    <MESSAGE value="game with headless v3" />
+    <MESSAGE value="play with screenshot" />
+    <MESSAGE value="play with screenshot take screenshot and failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="play with screenshot take screenshot and failure" />
   </component>
 </project>
