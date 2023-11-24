@@ -15,9 +15,9 @@ public class SearchPage extends BaseSeleniumPage {
     }
 
 
-    public int setSearchResults() {
+    public Long setSearchResults() {
      String s = searcResult.getText().replaceAll("[^\\d]", "").substring(0,10);
-     return Integer.parseInt(s);
+     return Long.parseLong(s);
 
     }
 }
