@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="repair int">
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="game with headless v2">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700856091185</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="game with headless">
+      <created>1700856372918</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700856372918</updated>
+    </task>
+    <task id="LOCAL-00010" summary="game with headless v2">
+      <created>1700856492990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700856492990</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +214,8 @@
     <MESSAGE value="repair" />
     <MESSAGE value="repair 2" />
     <MESSAGE value="repair int" />
-    <option name="LAST_COMMIT_MESSAGE" value="repair int" />
+    <MESSAGE value="game with headless" />
+    <MESSAGE value="game with headless v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="game with headless v2" />
   </component>
 </project>
