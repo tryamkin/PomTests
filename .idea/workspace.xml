@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="pom update and add tests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="failed test">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,12 +107,27 @@
       <option name="project" value="LOCAL" />
       <updated>1700853426661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pom update and add tests">
+      <created>1700853644588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700853644588</updated>
+    </task>
+    <task id="LOCAL-00004" summary="failed test">
+      <created>1700853750502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700853750502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom update" />
     <MESSAGE value="pom update and add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom update and add tests" />
+    <MESSAGE value="failed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="failed test" />
   </component>
 </project>

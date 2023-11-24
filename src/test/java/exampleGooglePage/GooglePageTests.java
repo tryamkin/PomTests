@@ -6,9 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.CustomAttribute;
 import org.testng.annotations.Test;
 
+
 public class GooglePageTests extends BaseSeleniumTest {
 
-    @Test()
+    @Test
     @Description("First test")
     @CustomAttribute(name = "Taras ")
     public void firstTest (){
@@ -18,7 +19,7 @@ public class GooglePageTests extends BaseSeleniumTest {
 
     }
 
-    @Test(priority = 1)
+    @Test
     public void searchSomethingTest(){
         MainPage mainPage = new MainPage();
         mainPage.searchSomething("Selenium");
@@ -26,8 +27,8 @@ public class GooglePageTests extends BaseSeleniumTest {
     }
 
 
-    @Test (priority = 2)
-    public void searchResultTest(){
+    @Test
+    public void searchTResultTest(){
         SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.setSearchResults()<1000);
     }
