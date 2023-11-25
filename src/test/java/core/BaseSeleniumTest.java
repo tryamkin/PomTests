@@ -19,12 +19,16 @@ abstract public class BaseSeleniumTest {
     @BeforeClass
     public void setUp(){
         WebDriverManager.chromedriver().setup();
-        //
+        // для запуска на GitHub CI
         System.out.println(os);
-        if (os.contains("Windows")){
+        if (!os.contains("Linux")){
             driver = new ChromeDriver();
         } else {
-            driver = new ChromeDriver(new ChromeOptions().addArguments("--headless"));
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless","--no-sandbox",
+                    "--disable-gpu","--disable-dev-shm-usage",
+                    "--window-size=1920,1080","--remote-allow-origins=*");
+            driver = new ChromeDriver(options);
         }
 
         driver.manage().window().maximize();
