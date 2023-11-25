@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="play with screenshot take screenshot and failure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="broke" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +84,7 @@
       <recent name="C:\!Teach\PomTests\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GooglePageTests">
+  <component name="RunManager">
     <configuration name="GooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PomTests" />
       <extension name="coverage">
@@ -108,7 +105,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GooglePageTest" />
-        <item itemvalue="TestNG.GooglePageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700857441911</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="repair">
+      <created>1700857918400</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700857918400</updated>
+    </task>
+    <task id="LOCAL-00015" summary="broke">
+      <created>1700857988611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700857988611</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +241,6 @@
     <MESSAGE value="pom update and add tests" />
     <MESSAGE value="failed test" />
     <MESSAGE value="failed test v2" />
-    <MESSAGE value="repair" />
     <MESSAGE value="repair 2" />
     <MESSAGE value="repair int" />
     <MESSAGE value="game with headless" />
@@ -239,6 +248,8 @@
     <MESSAGE value="game with headless v3" />
     <MESSAGE value="play with screenshot" />
     <MESSAGE value="play with screenshot take screenshot and failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="play with screenshot take screenshot and failure" />
+    <MESSAGE value="repair" />
+    <MESSAGE value="broke" />
+    <option name="LAST_COMMIT_MESSAGE" value="broke" />
   </component>
 </project>
