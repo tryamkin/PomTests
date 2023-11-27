@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v4">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -78,7 +77,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/!Teach/PomTests/src/test/java/exampleGooglePage1",
+    "last_opened_file_path": "C:/!Teach/PomTests",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -90,6 +89,7 @@
       <recent name="exampleGooglePage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\!Teach\PomTests" />
       <recent name="C:\!Teach\PomTests\src\test\java\exampleGooglePage1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -297,7 +297,28 @@
       <option name="project" value="LOCAL" />
       <updated>1701098447150</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add Allure report test v5">
+      <created>1701099096213</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701099096213</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add Allure report test v5">
+      <created>1701099138335</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701099138335</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add Allure report test v5">
+      <created>1701099227422</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701099227422</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +356,7 @@
     <MESSAGE value="add Allure report test v2" />
     <MESSAGE value="add Allure report test v3" />
     <MESSAGE value="add Allure report test v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v4" />
+    <MESSAGE value="add Allure report test v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v5" />
   </component>
 </project>
