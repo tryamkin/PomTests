@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v6">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-    </list>
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701101127721</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add Allure report test v7">
+      <created>1701101362967</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701101362967</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,6 +369,7 @@
     <MESSAGE value="add Allure report test v4" />
     <MESSAGE value="add Allure report test v5" />
     <MESSAGE value="add Allure report test v6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v6" />
+    <MESSAGE value="add Allure report test v7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v7" />
   </component>
 </project>
