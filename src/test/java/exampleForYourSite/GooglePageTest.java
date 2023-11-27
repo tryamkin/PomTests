@@ -17,7 +17,7 @@ public class GooglePageTest extends BaseSeleniumTest {
         MainPage mainPage = new MainPage();
         mainPage.openMainPage();
         Assert.assertEquals(mainPage.getTitlePage(),"Google");
-
+        takeScreenShot();
     }
 
     @Test (priority = 2)
@@ -25,6 +25,7 @@ public class GooglePageTest extends BaseSeleniumTest {
         MainPage mainPage = new MainPage();
         mainPage.searchSomething("Selenium");
         Assert.assertTrue(mainPage.getUrlPage().contains("search"));
+        takeScreenShot();
     }
 
 
@@ -32,6 +33,7 @@ public class GooglePageTest extends BaseSeleniumTest {
     public void searchTResultTest(){
         SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.setSearchResults()>1000);
+        takeScreenShot();
     }
 
 

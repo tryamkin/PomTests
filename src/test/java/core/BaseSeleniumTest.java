@@ -1,6 +1,9 @@
 package core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,6 +12,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.ByteArrayInputStream;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -35,6 +39,13 @@ abstract public class BaseSeleniumTest {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         BaseSeleniumPage.setDriver(driver);
+    }
+
+    public void takeScreenShot(){
+        Allure.addAttachment(new Object() {}
+                .getClass()
+                .getEnclosingMethod()
+                .getName(), new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
     }
 
     @AfterClass

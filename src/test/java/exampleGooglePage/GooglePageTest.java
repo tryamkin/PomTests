@@ -2,8 +2,6 @@ package exampleGooglePage;
 
 import core.BaseSeleniumTest;
 import io.qameta.allure.Owner;
-import io.qameta.allure.Param;
-import jdk.jfr.Category;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.CustomAttribute;

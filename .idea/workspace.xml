@@ -5,6 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="Allure report done">
+      <change afterPath="$PROJECT_DIR$/allure-results/015b23a8-38fd-42a2-b5b8-136546f96965-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/027e186a-9da9-47b7-8957-0130cbfecea1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/07e6848e-cf0f-420b-8834-3243b1b7902f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0bb698a0-18c5-41cc-8803-35080383d175-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1544e906-50ef-4d61-8614-a7636718fbef-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/17538ee2-25f0-43ff-b969-61bd34754eb8-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1a868cf5-df2f-4c0e-9c49-a4439bc6b2d3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3157669c-3789-4ebd-a130-a91b9710e4dd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/325c7d95-cef2-4a76-901a-ce2c9c00d452-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/37cb0aee-ba76-4515-b60e-e76e35fbcc24-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3afa680d-65ed-4a68-867c-3579237bf62b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/48d6d21a-451d-4928-9e2e-cea1f2702475-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/56d722bb-5d0c-4410-9ffe-a72f6ead5492-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6078f619-b146-4ed9-b79b-9c2cb89b897f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/631cbd55-6a17-46b2-9879-90b3847d8759-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7358f028-b64c-429a-a9ce-85f24da35199-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7544439d-a4b2-46c7-aa95-fcd462a30e26-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/78b0818d-10ba-4dbd-baa9-9ff2d28a377b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7d0d8434-8447-4c07-a406-a84339dfa734-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7ff023a6-2290-4fe8-8d66-031e6de5dabb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/81434449-c3d8-4272-9bd7-54c267fc1888-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8365db3f-b37c-4f7d-8d53-b6416016c693-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/84e36958-ffd6-4953-ac6b-227b62d2cf27-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/92d83ef6-5513-40e1-b7f9-38f23a758454-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/98528e17-7bff-4505-bc2d-633b0ef1419f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9c89f3f2-ffc1-461d-b885-255d4ff48a6d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bbc87b6d-126d-4f97-9ece-c984327cf2ac-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bf813433-88d6-4f7a-8afe-95f04eac8b30-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c35fef71-c9c8-497f-8f0c-83805cc039a6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c98d3aa8-95f0-44e4-882a-6ac3524208e7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d2780a68-28f0-46c9-a580-9379d44fcb41-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eca0f051-2d5b-4d89-b3ae-5f5d9c7e798e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f77ea830-f12b-4220-a1f3-1105cedc2383-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f9372c99-9c22-4d8e-bf1a-8a673333550f-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite/GooglePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite1/exampleForYourSite/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite1/exampleForYourSite/GooglePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +115,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/!Teach/PomTests",
+    "last_opened_file_path": "C:/!Teach/PomTests/src/test/java/exampleForYourSite1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -88,6 +127,7 @@
       <recent name="exampleGooglePage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\!Teach\PomTests\src\test\java\exampleForYourSite1" />
       <recent name="C:\!Teach\PomTests" />
       <recent name="C:\!Teach\PomTests\src\test\java\exampleGooglePage1" />
     </key>
@@ -95,7 +135,7 @@
       <recent name="C:\!Teach\PomTests\.idea" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.GooglePageTest.firstTest">
     <configuration name="GooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PomTests" />
       <extension name="coverage">
@@ -113,8 +153,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GooglePageTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PomTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleForYourSite1.exampleForYourSite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exampleForYourSite1.exampleForYourSite" />
+      <option name="MAIN_CLASS_NAME" value="exampleForYourSite1.exampleForYourSite.GooglePageTest" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GooglePageTest.firstTest" />
         <item itemvalue="TestNG.GooglePageTest" />
       </list>
     </recent_temporary>
@@ -359,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701103215836</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Allure report done">
+      <created>1701103740571</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1701103740571</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
