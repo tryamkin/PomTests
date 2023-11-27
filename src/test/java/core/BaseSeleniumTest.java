@@ -8,13 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
-
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 abstract public class BaseSeleniumTest {
     protected WebDriver driver;
@@ -42,10 +38,9 @@ abstract public class BaseSeleniumTest {
     }
 
     public void takeScreenShot(){
-        Allure.addAttachment(new Object() {}
-                .getClass()
-                .getEnclosingMethod()
-                .getName(), new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment(new Throwable()
+                .getStackTrace()[1]
+                .getMethodName(), new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
     }
 
     @AfterClass
