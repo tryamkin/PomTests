@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v7" />
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -329,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701101362967</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add Allure report test v8">
+      <created>1701101982783</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1701101982783</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +355,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="pom update" />
     <MESSAGE value="pom update and add tests" />
     <MESSAGE value="failed test" />
     <MESSAGE value="failed test v2" />
@@ -370,6 +379,7 @@
     <MESSAGE value="add Allure report test v5" />
     <MESSAGE value="add Allure report test v6" />
     <MESSAGE value="add Allure report test v7" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v7" />
+    <MESSAGE value="add Allure report test v8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v8" />
   </component>
 </project>
