@@ -4,12 +4,13 @@ import core.BaseSeleniumTest;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.CustomAttribute;
+
 import org.testng.annotations.Test;
 
 
 public class GooglePageTest extends BaseSeleniumTest {
 
-    @Test
+    @Test(priority = 1)
     @Description("First test")
     @CustomAttribute(name = "Taras ")
     public void firstTest (){
@@ -19,7 +20,7 @@ public class GooglePageTest extends BaseSeleniumTest {
 
     }
 
-    @Test
+    @Test (priority = 2)
     public void searchSomethingTest(){
         MainPage mainPage = new MainPage();
         mainPage.searchSomething("Selenium");
@@ -27,7 +28,7 @@ public class GooglePageTest extends BaseSeleniumTest {
     }
 
 
-    @Test
+    @Test(priority = 3)
     public void searchTResultTest(){
         SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.setSearchResults()>1000);
