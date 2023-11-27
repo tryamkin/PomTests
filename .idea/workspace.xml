@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="try v2 add if env">
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="work version">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/PomTests/src/test/java/exampleGooglePage1&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -84,6 +86,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="exampleGooglePage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\!Teach\PomTests\src\test\java\exampleGooglePage1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\!Teach\PomTests\.idea" />
@@ -241,7 +246,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700928560554</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="hope its alive">
+      <created>1700929161220</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700929161220</updated>
+    </task>
+    <task id="LOCAL-00019" summary="work version">
+      <created>1700929650090</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1700929650090</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +290,8 @@
     <MESSAGE value="broke" />
     <MESSAGE value="try v1 add env to mvm test" />
     <MESSAGE value="try v2 add if env" />
-    <option name="LAST_COMMIT_MESSAGE" value="try v2 add if env" />
+    <MESSAGE value="hope its alive" />
+    <MESSAGE value="work version" />
+    <option name="LAST_COMMIT_MESSAGE" value="work version" />
   </component>
 </project>
