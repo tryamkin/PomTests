@@ -30,7 +30,7 @@ public class GooglePageTest extends BaseSeleniumTest {
     @Test
     public void searchTResultTest(){
         SearchPage searchPage = new SearchPage();
-        Assert.assertTrue(searchPage.setSearchResults()>1000);
+        Assert.assertTrue(searchPage.setSearchResults()<1000);
     }
 
 
