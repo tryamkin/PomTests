@@ -1,9 +1,6 @@
-package exampleGooglePage;
+package exampleForYourSite1.exampleForYourSite;
 
 import core.BaseSeleniumTest;
-import io.qameta.allure.Owner;
-import io.qameta.allure.Param;
-import jdk.jfr.Category;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.CustomAttribute;
@@ -12,9 +9,8 @@ import org.testng.annotations.Test;
 
 public class GooglePageTest extends BaseSeleniumTest {
 
-    @Test
-    @Description("First test editet")
-    @Owner("Ya est` owner )")
+    @Test(priority = 1)
+    @Description("First test")
     @CustomAttribute(name = "Taras ")
     public void firstTest (){
         MainPage mainPage = new MainPage();
@@ -23,7 +19,7 @@ public class GooglePageTest extends BaseSeleniumTest {
 
     }
 
-    @Test
+    @Test (priority = 2)
     public void searchSomethingTest(){
         MainPage mainPage = new MainPage();
         mainPage.searchSomething("Selenium");
@@ -31,9 +27,7 @@ public class GooglePageTest extends BaseSeleniumTest {
     }
 
 
-    @Test
-    @Owner("Me")
-
+    @Test(priority = 3)
     public void searchTResultTest(){
         SearchPage searchPage = new SearchPage();
         Assert.assertTrue(searchPage.setSearchResults()>1000);
