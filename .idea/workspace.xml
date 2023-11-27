@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add Allure report test v8">
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="Allure report 1 failed test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701101982783</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add Allure report test v9 magic )">
+      <created>1701102458737</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1701102458737</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Allure report 1 failed test">
+      <created>1701102688109</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1701102688109</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,8 +369,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="pom update and add tests" />
-    <MESSAGE value="failed test" />
     <MESSAGE value="failed test v2" />
     <MESSAGE value="repair 2" />
     <MESSAGE value="repair int" />
@@ -380,6 +392,8 @@
     <MESSAGE value="add Allure report test v6" />
     <MESSAGE value="add Allure report test v7" />
     <MESSAGE value="add Allure report test v8" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Allure report test v8" />
+    <MESSAGE value="add Allure report test v9 magic )" />
+    <MESSAGE value="Allure report 1 failed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure report 1 failed test" />
   </component>
 </project>
