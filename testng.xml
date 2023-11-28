@@ -1,0 +1,12 @@
+<suite name="Multi Group Suite» verbose=1">
+    <test name="Group Test one">
+        <groups>
+            <run>
+                <include name="group-one1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="exampleForYourSite.GooglePageTest"/>
+        </classes>
+    </test>
+</suite>

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class GooglePageTest extends BaseSeleniumTest {
 
     @Test
-    @Description("First test editet")
+    @Description("First test edited")
     @Owner("Ya est` owner )")
     @CustomAttribute(name = "Taras ")
     public void firstTest (){

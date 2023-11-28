@@ -4,10 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="Allure add screenshot">
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="Allure add screenshot whit method name">
+      <change afterPath="$PROJECT_DIR$/allure-results/09ff49db-31a3-4df8-8368-0dacc63f5266-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0a100bdd-e661-4dbb-af74-22363095343b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1346c41c-0734-4825-8fea-bdaedccf5fcc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/21ca6c22-46b8-4b82-b2c0-a06636982b5e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2f95d803-26de-4ff0-ae86-1bd4e7ec3b42-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/32ffd2d5-2d7d-44f9-9fd0-20c51ac037e9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/545864f4-85bc-4c15-b608-b1877fdd4327-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5462ee2d-a524-4fdb-93c5-078eee15b8a5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/55630d45-1019-48b2-835b-2c5bbbed1823-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a7ba301-d76e-485b-a82a-7281dcd2bd84-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/670ae199-ef6e-48e9-aa0a-80c48a90a2c1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/77fa5ee2-e1d3-4ebc-9492-809321ded5eb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/77fcf1ea-7933-46a4-ac4b-3290a4b58421-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7badb822-b8cc-431d-8341-c6483d98c3b7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7e1e9e56-d141-4ddc-88a0-39db1d701f48-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/811cbbbb-38b5-4f22-aa36-df901989cbb4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/86846d5a-2fc6-4422-9399-04fe967ee679-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/885d611e-486a-48c0-8615-d5f7ada8a742-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b31479b-f6e0-44de-94e4-92a1d605fdee-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8ea086a7-7768-4324-99f5-3dfa8e663d22-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/925442cb-acb0-4eed-9846-18bdd72a0f03-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/97642fe9-e8e9-4722-93eb-78d5fc14729c-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/99a52ac3-4929-4a3a-bf26-1a6826e7238a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a830e7f9-74e6-4d83-9909-13b1f14391ea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b2c3b4e7-bf8a-48fc-b9a8-433b65f22c27-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b70cfb69-aacf-4aae-8945-18e6957d056c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b729ae4c-8094-45e1-a2d9-9d0f4b524a83-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bc0126b5-aa02-45e1-8eed-68ca3e442aad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c292709f-a33b-4709-a501-f8895d42d236-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d9fb66ce-1a85-4ff8-8060-9398a1aae52f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dc0bd099-cb7b-477d-bd48-0aea6655d2d4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3447dd4-b4ad-4e44-b696-51edc735fb05-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e43131b2-6800-4391-a270-3df26e8ef562-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e74ce842-450d-4aaa-929e-f96d55c5f0db-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e88a4a3a-08a4-4ec2-9e5b-84e25345f80c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e93b3c58-f647-40e3-b9cc-79202e1a2325-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f7560944-5641-4203-950a-058ce8f098ca-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/faada823-8d51-4371-a9b8-8d5abda4a701-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fb1f8ff0-dc1d-41e9-a662-3fa7edfb32c4-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fe9d95ec-6683-4b59-9568-3f4a57449241-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite/CalcPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite/GooglePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleForYourSite/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite1/exampleForYourSite/GooglePageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite1/exampleForYourSite/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleForYourSite1/exampleForYourSite/SearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exampleGooglePage/GooglePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,18 +122,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/!Teach/PomTests/src/test/java/exampleForYourSite1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/!Teach/PomTests/src/test/java/exampleForYourSite1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="exampleGooglePage" />
@@ -98,18 +147,64 @@
       <recent name="C:\!Teach\PomTests\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GooglePageTest.firstTest (1)">
-    <configuration name="GooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GooglePageTest (1)">
+    <configuration name="C:/!Teach/PomTests/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PomTests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePageTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PomTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exampleGooglePage.*" />
+          <option name="PATTERN" value="exampleForYourSite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exampleGooglePage" />
-      <option name="MAIN_CLASS_NAME" value="exampleGooglePage.GooglePageTest" />
+      <option name="PACKAGE_NAME" value="exampleForYourSite" />
+      <option name="MAIN_CLASS_NAME" value="exampleForYourSite.GooglePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePageTest.calcTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PomTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleForYourSite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exampleForYourSite" />
+      <option name="MAIN_CLASS_NAME" value="exampleForYourSite.GooglePageTest" />
+      <option name="METHOD_NAME" value="calcTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePageTest.exampleSimpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PomTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exampleForYourSite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exampleForYourSite" />
+      <option name="MAIN_CLASS_NAME" value="exampleForYourSite.GooglePageTest" />
+      <option name="METHOD_NAME" value="exampleSimpleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,29 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GooglePageTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PomTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exampleForYourSite1.exampleForYourSite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exampleForYourSite1.exampleForYourSite" />
-      <option name="MAIN_CLASS_NAME" value="exampleForYourSite1.exampleForYourSite.GooglePageTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GooglePageTest (1)" />
+        <item itemvalue="TestNG.GooglePageTest.exampleSimpleTest" />
+        <item itemvalue="TestNG.C:/!Teach/PomTests/testng.xml" />
+        <item itemvalue="TestNG.GooglePageTest.calcTest" />
         <item itemvalue="TestNG.GooglePageTest.firstTest (1)" />
-        <item itemvalue="TestNG.GooglePageTest.firstTest" />
-        <item itemvalue="TestNG.GooglePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701107890182</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Allure add screenshot whit method name">
+      <created>1701108980005</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1701108980005</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="repair int" />
     <MESSAGE value="game with headless" />
     <MESSAGE value="game with headless v2" />
     <MESSAGE value="game with headless v3" />
@@ -455,6 +540,14 @@
     <MESSAGE value="Allure report 1 failed test" />
     <MESSAGE value="Allure report done" />
     <MESSAGE value="Allure add screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allure add screenshot" />
+    <MESSAGE value="Allure add screenshot whit method name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure add screenshot whit method name" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="((GooglePageTest)this).os" custom="exampleForYourSite.GooglePageTest" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

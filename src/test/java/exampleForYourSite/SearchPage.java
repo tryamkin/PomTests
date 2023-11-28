@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 public class SearchPage extends BaseSeleniumPage {
 
     @FindBy(xpath = "//div[@id='result-stats']")
@@ -20,6 +21,9 @@ public class SearchPage extends BaseSeleniumPage {
         System.out.println(searcResult.getText());
         String s = searcResult.getText().replaceAll("[^\\d]", "").substring(0, 10);
         return Long.parseLong(s);
+    }
 
+    public String getUrlPage() {
+        return driver.getCurrentUrl();
     }
 }
