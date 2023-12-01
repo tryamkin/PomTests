@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Nov 27 15:30:00 GMT 2023","Mon Nov 27 15:30:00 GMT 2023","47","Default Suite","PomTests","exampleGooglePage.GooglePageTest","exampleGooglePage.GooglePageTest","searchTResultTest","searchTResultTest",""
-"passed","Mon Nov 27 15:08:57 GMT 2023","Mon Nov 27 15:08:59 GMT 2023","1932","Command line suite","Command line test","exampleForYourSite.GooglePageTest","exampleForYourSite.GooglePageTest","firstTest","firstTest",""
-"passed","Mon Nov 27 15:09:00 GMT 2023","Mon Nov 27 15:09:04 GMT 2023","4152","Command line suite","Command line test","exampleForYourSite.GooglePageTest","exampleForYourSite.GooglePageTest","searchSomethingTest","searchSomethingTest",""
-"passed","Mon Nov 27 15:09:04 GMT 2023","Mon Nov 27 15:09:04 GMT 2023","71","Command line suite","Command line test","exampleForYourSite.GooglePageTest","exampleForYourSite.GooglePageTest","searchTResultTest","searchTResultTest",""
-"passed","Mon Nov 27 15:29:56 GMT 2023","Mon Nov 27 15:30:00 GMT 2023","4257","Default Suite","PomTests","exampleGooglePage.GooglePageTest","exampleGooglePage.GooglePageTest","searchSomethingTest","searchSomethingTest",""
-"passed","Mon Nov 27 15:29:54 GMT 2023","Mon Nov 27 15:29:56 GMT 2023","1526","Default Suite","PomTests","exampleGooglePage.GooglePageTest","exampleGooglePage.GooglePageTest","firstTest","firstTest",""
