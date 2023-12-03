@@ -44,6 +44,7 @@ public class MainPage extends BaseSeleniumPage {
     }
 
     public MainPage openUrlPage() {
+        openMainPage();
         driver.getCurrentUrl();
         return this;
     }

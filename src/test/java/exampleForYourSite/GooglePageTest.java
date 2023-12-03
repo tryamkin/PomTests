@@ -1,5 +1,6 @@
 package exampleForYourSite;
 import core.BaseSeleniumTest;
+import core.ListenerTest;
 import io.qameta.allure.*;
 import jdk.jfr.Description;
 import jdk.jfr.Label;
@@ -8,31 +9,45 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.CustomAttribute;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.TestValues;
 
 @Label("First package")
+@Listeners(ListenerTest.class)
 public class GooglePageTest extends BaseSeleniumTest {
+
+    @DataProvider
+    public Object[][] data () {
+        return new Object[][]{
+                {"Test"},{"Sel"},{"hello"}
+        };
+    }
+
 
     @Test(priority = 1)
     @Description("First test open Browser")
-    @Owner("Owner Name")
+    @Owner("Owner Name Could be here")
     @Severity(SeverityLevel.CRITICAL)
     @CustomAttribute(name = "Taras ")
     @Step("First step ")
-    @Issue(value = "R2D2 ")
+    @Issue(value = "R2D2orYourValue ")
     public void firstTest() {
         MainPage mainPage = new MainPage().
                 openUrlPage();
         Assert.assertTrue(mainPage.getTitlePage().contains("Google"));
+
     }
 
-    @Test(priority = 2)
+    @Test(dataProvider = "data",priority = 2)
     @Description("Second test open Browser")
-    public void searchSomethingTest() {
+    public void searchSomethingTest(String param) {
         SearchPage searchPage = new MainPage().
-                searchSomething(TestValues.SEARCH_EXAMPLE);
-        Assert.assertTrue(searchPage.getUrlPage().contains("search"));
+                searchSomething(param);
+        System.out.println(searchPage.getUrlPage());
+        System.out.println(param);
+        Assert.assertTrue(searchPage.getUrlPage().contains(param));
 
     }
 
@@ -52,7 +67,7 @@ public class GooglePageTest extends BaseSeleniumTest {
                 openUrlPage().
                 calc();
         Assert.assertEquals(calcPage.getAnswer(), 4);
-        takeScreenShot();
+       // takeScreenShot();
     }
 
     @Test

@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+
+      <option name="groups">
+        <value>
+          <list size="2">
+            <item index="0" class="exampleForYourSite.GooglePageTest" itemvalue="group-one" />
+            <item index="1" class="exampleGooglePage.GooglePageTest" itemvalue="group-one1" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

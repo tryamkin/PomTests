@@ -1,13 +1,15 @@
 package exampleGooglePage;
 
 import core.BaseSeleniumTest;
+import core.ListenerTest;
 import io.qameta.allure.Owner;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.CustomAttribute;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
+@Listeners(ListenerTest.class)
 public class GooglePageTest extends BaseSeleniumTest {
 
     @Test

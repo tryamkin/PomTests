@@ -7,13 +7,16 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
 
-abstract public class BaseSeleniumTest {
-    protected WebDriver driver;
+
+abstract public class BaseSeleniumTest implements ITestListener {
+    protected static WebDriver driver;
     private final String os = System.getProperty("os.name");
 
     @BeforeClass
@@ -43,9 +46,23 @@ abstract public class BaseSeleniumTest {
                 .getMethodName(), new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
     }
 
+
+
+    public void onTestFailure(ITestResult result) {
+        Allure.addAttachment("Anytext", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+    }
+
+
+
+
     @AfterClass
+
     public void tearDown(){
+        takeScreenShot();
+
+        //   Allure.addAttachment("AnytextForScreenshot"+ Object.class.getName(), new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         driver.close();
         driver.quit();
     }
+
 }
