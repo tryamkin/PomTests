@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add login with coockies v2">
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/coockieEnter/LoginWithCoockies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/coockieEnter/LoginWithCoockies.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <recent name="C:\!Teach\PomTests\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginWithCoockies">
+  <component name="RunManager" selected="TestNG.LoginWithCoockiesTest">
     <configuration name="BlazeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PomTests" />
       <extension name="coverage">
@@ -161,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginWithCoockies" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWithCoockiesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PomTests" />
       <extension name="coverage">
         <pattern>
@@ -170,7 +169,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="coockieEnter" />
-      <option name="MAIN_CLASS_NAME" value="coockieEnter.LoginWithCoockies" />
+      <option name="MAIN_CLASS_NAME" value="coockieEnter.LoginWithCoockiesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -178,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginWithCoockies.openPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWithCoockiesTest.openPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PomTests" />
       <extension name="coverage">
         <pattern>
@@ -187,7 +186,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="coockieEnter" />
-      <option name="MAIN_CLASS_NAME" value="coockieEnter.LoginWithCoockies" />
+      <option name="MAIN_CLASS_NAME" value="coockieEnter.LoginWithCoockiesTest" />
       <option name="METHOD_NAME" value="openPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -198,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginWithCoockies" />
-        <item itemvalue="TestNG.LoginWithCoockies.openPage" />
+        <item itemvalue="TestNG.LoginWithCoockiesTest" />
+        <item itemvalue="TestNG.LoginWithCoockiesTest.openPage" />
         <item itemvalue="TestNG.BlazeTest.loginUserTest" />
         <item itemvalue="TestNG.BlazeTest.logon" />
         <item itemvalue="TestNG.BlazeTest" />
@@ -217,7 +216,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700743984097</updated>
-      <workItem from="1702217768387" duration="11737000" />
+      <workItem from="1702217768387" duration="12521000" />
     </task>
     <task id="LOCAL-00001" summary="pom update">
       <created>1700851484955</created>
@@ -501,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702231246981</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1702232126681</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1702232126681</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="play with screenshot take screenshot and failure" />
     <MESSAGE value="repair" />
     <MESSAGE value="broke" />
     <MESSAGE value="try v1 add env to mvm test" />
@@ -545,7 +551,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="add login with coockies" />
     <MESSAGE value="add login with coockies v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login with coockies v2" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

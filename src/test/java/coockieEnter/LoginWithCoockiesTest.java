@@ -13,7 +13,7 @@ import java.io.ByteArrayInputStream;
 import java.time.Duration;
 
 
-public class LoginWithCoockies {
+public class LoginWithCoockiesTest {
     protected static WebDriver driver;
 
     public void takeScreenShot(){
@@ -33,7 +33,7 @@ public class LoginWithCoockies {
 
 
     @Test
-    public void loginWithCoockies() {
+    public void loginWithCoockiesTest() {
         setUpdrv();
         driver.get("https://www.demoblaze.com/");
         takeScreenShot();
