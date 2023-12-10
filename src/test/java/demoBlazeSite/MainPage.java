@@ -2,6 +2,7 @@ package demoBlazeSite;
 
 import core.BaseSeleniumPage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.Set;
 
 
 public class MainPage extends BaseSeleniumPage {
@@ -65,6 +67,13 @@ public class MainPage extends BaseSeleniumPage {
         //todo - вынести в отдельный метод
 
         nameOfLoginnedUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"nameofuser\"]")));
+      Set<Cookie> cookies = driver.manage().getCookies();
+        for (int i = 0; i < cookies.size(); i++) {
+            System.out.println(cookies);
+        }
+        System.out.println("====== " + cookies);
+
+
         return this;
     }
 
