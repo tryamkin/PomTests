@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add login with coockies">
-      <change afterPath="$PROJECT_DIR$/allure-results/0562d58b-663d-4ba8-915e-3d562a221507-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/334b24a4-3a8f-4e86-9b67-c347a58b3928-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/343ce371-6d96-414c-8c0a-9a39f1c99001-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/38ea040d-6ee8-4ef1-abb4-d4a0e0e43a92-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3b4fabe3-5c3e-4377-89c6-88746b174fa1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7211b087-957b-41dc-8dce-9c35e9c3650a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/91c7f7da-ae5c-4f88-9dab-17ac4ded9072-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9fe73fbb-35cd-4bb8-b0c3-84c763d2dede-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b8bb84f1-1631-4a49-a389-1d4742e3e97d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c7973975-eeb5-4f07-8c78-5e8df239ee66-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d6ce5542-b7fc-40d9-ba38-38394d26ff1f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ec7ac476-e38f-479a-abd0-ed7075ff2365-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f6c9517e-f272-4787-ac81-6d7d09dc0f70-container.json" afterDir="false" />
+    <list default="true" id="062611a4-1ae2-4af4-a0d4-000ec2a1cfd8" name="Changes" comment="add login with coockies v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/coockieEnter/LoginWithCoockies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/coockieEnter/LoginWithCoockies.java" afterDir="false" />
     </list>
@@ -230,7 +217,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700743984097</updated>
-      <workItem from="1702217768387" duration="10920000" />
+      <workItem from="1702217768387" duration="11737000" />
     </task>
     <task id="LOCAL-00001" summary="pom update">
       <created>1700851484955</created>
@@ -506,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702229764259</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add login with coockies v2">
+      <option name="closed" value="true" />
+      <created>1702231246981</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1702231246981</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="play with screenshot" />
     <MESSAGE value="play with screenshot take screenshot and failure" />
     <MESSAGE value="repair" />
     <MESSAGE value="broke" />
@@ -550,7 +544,8 @@
     <MESSAGE value="POM framework finished" />
     <MESSAGE value="add" />
     <MESSAGE value="add login with coockies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login with coockies" />
+    <MESSAGE value="add login with coockies v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login with coockies v2" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

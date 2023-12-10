@@ -9,12 +9,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
-import java.util.Date;
 
-import static io.restassured.RestAssured.given;
 
 public class LoginWithCoockies {
     protected static WebDriver driver;
@@ -36,24 +33,12 @@ public class LoginWithCoockies {
 
 
     @Test
-    public void openPage() {
+    public void loginWithCoockies() {
         setUpdrv();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.get("https://www.demoblaze.com/");
         takeScreenShot();
-        Cookie getCoockie = new Cookie("tokenp_", "VXNlcjEyMzEyMzE3MDI4MjM=");
-        driver.manage().addCookie(getCoockie);
-        driver.navigate().refresh();
-        Cookie cookieUser = driver.manage().getCookieNamed("user");
-        driver.navigate().refresh();
-        System.out.println(cookieUser);
-        driver.get("https://www.demoblaze.com/");
-        WebElement nameOfLoginnedUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"nameofuser\"]")));
-        Assert.assertTrue(nameOfLoginnedUser.isDisplayed());
-        takeScreenShot();
-        driver.close();
-        driver.quit();
-
+        logWithCoockies();
+        tearDown();
 /*  код на RestAssured
         String sessionid =  given()
             .contentType(ContentType.MULTIPART)
@@ -66,5 +51,22 @@ public class LoginWithCoockies {
 
         System.out.println(sessionid);*/
     }
+        public void logWithCoockies(){
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            Cookie getCoockie = new Cookie("tokenp_", "VXNlcjEyMzEyMzE3MDI4MjM=");
+            driver.manage().addCookie(getCoockie);
+            driver.navigate().refresh();
+            Cookie cookieUser = driver.manage().getCookieNamed("user");
+            driver.navigate().refresh();
+            System.out.println(cookieUser);
+            driver.get("https://www.demoblaze.com/");
+            WebElement nameOfLoginnedUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"nameofuser\"]")));
+            Assert.assertTrue(nameOfLoginnedUser.isDisplayed());
+            takeScreenShot();
+        }
 
+        public void tearDown(){
+            driver.close();
+            driver.quit();
+        }
 }
