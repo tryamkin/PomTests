@@ -2,7 +2,7 @@
     <test name="Group Test one">
         <groups>
             <run>
-                <include name="group-one1"/>
+                     <include name="group-one1"/>
             </run>
         </groups>
         <classes>
